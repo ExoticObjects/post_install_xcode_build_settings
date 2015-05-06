@@ -3,6 +3,7 @@ platform :ios, '7.0'
 
 pod 'handlebars-objc', '~> 1.3.0'
 
+#Useful documentation here: http://www.rubydoc.info/github/CocoaPods/Xcodeproj/Xcodeproj/Project/Object/XCBuildConfiguration
 post_install do |installer|
 
     def modify_build_settings(project, filename, build_settings_key, new_compiler_flags)
