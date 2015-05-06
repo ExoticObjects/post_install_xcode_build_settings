@@ -2,7 +2,7 @@
 
 This script (see the [Podfile](https://github.com/ExoticObjects/post_install_xcode_build_settings/blob/master/Podfile)) is one way to deal with [this problem](https://github.com/Bertrand/handlebars-objc/issues/15)
 
-See the excellent answer on that page, posted by guillaume-algis:
+Note the excellent answer on that page, posted by guillaume-algis:
 
 >This is because Cocoapods apply the -fno-objc-arc flag (and others) on a file by file basis in Xcode
 instead of setting a global compiler flag for the whole target.
