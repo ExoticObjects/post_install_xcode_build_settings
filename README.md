@@ -1,6 +1,6 @@
 # post_install_xcode_build_settings
 
-This script is one way to deal with [this problem](https://github.com/Bertrand/handlebars-objc/issues/15)
+This script (see the `Podfile`) is one way to deal with [this problem](https://github.com/Bertrand/handlebars-objc/issues/15)
 
 See the excellent answer on that page, posted by guillaume-algis:
 
