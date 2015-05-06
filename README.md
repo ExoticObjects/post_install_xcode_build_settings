@@ -47,7 +47,7 @@ If you've ever looked in a pbxproj file, you might have seen scary things like t
 	};
 	
 
-This object is what this script is concerned with. It will set buildSettings['OTHER_CFLAGS'] to the values you see above. 
+This object is what this script is concerned with. It will set buildSettings['OTHER_CFLAGS'] to the values you see above, in the various places where this is required.
 	
 To sum up:
 
