@@ -11,8 +11,7 @@ instead of setting a global compiler flag for the whole target.
 in Xcode beforehand.
 
 >A solution is to add the flags added by Cocoapods: 
-`-fno-objc-arc -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode`)  
-in "Other C Flags" for the whole handlebars-objc target.
+`-fno-objc-arc -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode`) in "Other C Flags" for the whole handlebars-objc target.
 
 >Please note however that these will be removed after each pod install.
 
