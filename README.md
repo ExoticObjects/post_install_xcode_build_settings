@@ -51,7 +51,7 @@ This object is what this script is concerned with. It will set buildSettings['OT
 	
 To sum up:
 
-* To make Handlebars-objc and Cocoapods play well together, you need to add `-fno-objc-arc -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode` to `Pods-handlebars-objc` in your XCode build settings.
+* To make Handlebars-objc and the latest version of Cocoapods (0.37.0) play well together, you need to add `-fno-objc-arc -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode` to `Pods-handlebars-objc` in your XCode build settings (in the IDE).
 * However, each time you run `pod update`, those settings will be cleared.
 * This script writes the settings to the appropriate places in the pbxproj files. So there's no need to add them in XCode in the first place.
 * The script is pretty re-usable. You can use it to set any build setting to whatever you want. 
