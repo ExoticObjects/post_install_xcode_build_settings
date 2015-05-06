@@ -16,3 +16,9 @@ xcuserdata
 # svn & cvs
 .svn
 CVS
+
+# IntelliJ project files
+.idea/
+*.docset
+
+.idea/*
